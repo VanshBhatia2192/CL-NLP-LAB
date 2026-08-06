@@ -1,0 +1,48 @@
+# ==========================================
+# INDUSTRY PYTHON & JUPYTER LAB .GITIGNORE
+# ==========================================
+
+# Virtual Environments (uv / standard venv)
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook Background Clutter & Caches
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.jupyter/
+.local/share/jupyter/
+
+# Python Compilation Cache Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Large NLP Datasets & Pre-trained Model Weights
+# (Prevents uploading gigabytes of model checkpoints to GitHub)
+data/
+datasets/
+models/
+*.bin
+*.pt
+*.pth
+*.h5
+
+# OS-Specific Workspace Bloat (macOS / Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE Configurations (Neovim / VS Code)
+.nvim/
+.idea/
+.vscode/
+*.swp
+
