@@ -8,6 +8,8 @@ Lab work for the Computational Linguistics & NLP (CL-NLP) course. Each lab is a 
 |-----|---------------------------|
 | 1   | Data Analysis             |
 | 2   | Basic Text Preprocessing  |
+| 3   | Stemming, Lemmatization & Regex |
+| 4   | Term-Frequency & TF-IDF   |
 
 ---
 
@@ -33,6 +35,22 @@ Cleaning and tokenizing raw text using plain Python, NLTK, and spaCy.
 - 2.1 Lowercasing, punctuation removal, digit removal, whitespace cleanup
 - 2.2 Word & sentence tokenization (regex, NLTK, and spaCy versions)
 - 2.3 Stop-word removal
+
+## Lab 3: Stemming, Lemmatization & Regex
+
+Reducing words to their root forms and extracting patterns from raw text using NLTK and regex.
+
+- 3.1 Stemming with Porter Stemmer
+- 3.2 Lemmatization (noun & verb forms) with WordNet
+- 3.3 Regex extraction of emails, URLs, mobile numbers, hashtags, and mentions
+
+## Lab 4: Term-Frequency & TF-IDF
+
+Computing word frequencies and TF-IDF scores, both with NLP toolkits and from scratch.
+
+- 4.1 Term-frequency analysis & named entity recognition (using NLTK/spaCy)
+- 4.2 Term-frequency analysis (manual implementation, no toolkit)
+- 4.3 TF-IDF calculation from scratch (TF, DF, IDF, TF-IDF)
 
 ---
 
